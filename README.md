@@ -1,7 +1,7 @@
 # Deploy ve En iyi Pratikler
 
-Bu challengeda, Heroku'ya _deployable_ olan basit bir Express uygulaması oluşturacaksınız. 
-Bu, `package.json` dosyasında uygun bir `start` betiğine sahip olduğu ve port numarasının sabit kodlanmak yerine ortamdan alındığı anlamına gelir. 
+Bu challengeda, Heroku'ya _deployable_ olan basit bir Express uygulaması oluşturacaksınız.
+Bu, `package.json` dosyasında uygun bir `start` betiğine sahip olduğu ve port numarasının sabit kodlanmak yerine ortamdan alındığı anlamına gelir.
 Uygulamanızı Heroku'ya dağıtmaktan çekinmeyin, ancak bunun artık ücretsiz bir hizmet olmadığını unutmayın.
 
 ## Talimatlar
@@ -12,7 +12,7 @@ Forklayın, clone'layın ve bolca commitleyin.
 
 ### Görev 2: MVP
 
-- [ ] Basit bir API oluşturun:
+- [+] Basit bir API oluşturun:
 
   - `npx gitignore node` komutuyla bir `.gitignore` dosyası oluşturun
   - `npm init --y` komutuyla bir `package.json` oluşturun
@@ -22,11 +22,11 @@ Forklayın, clone'layın ve bolca commitleyin.
   - Bir `.env` dosyası ve dotenv kitaplığı kullanarak ortam değişkenleri için destek ekleyin ve kodda geri dönüşler sağlayın
   - API'yi detaylandırın:
 
-    | Metod  | URL                  | Açıklama                                                                                                       |
-    | ------ | -------------------- | ---------------------------------------------------------------------------------------------------------------|
-    | GET    | /api/kullanıcılar    | Kullanıcılar dizisini döndüren.                                                                                |
-    | POST   | /api/kayıtol         | `request body` de { kullaniciadi, sifre } ile bir kullanıcı oluşturan , yeni oluşturulan kullanıcıyı döndüren. |
-    | POST   | /api/giriş           | `request body` deki { kullaniciadi, sifre } yi kontrol edip , bir hoşgeldin mesajı döndüren    .               |
+    | Metod | URL               | Açıklama                                                                                                       |
+    | ----- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
+    | GET   | /api/kullanıcılar | Kullanıcılar dizisini döndüren.                                                                                |
+    | POST  | /api/kayıtol      | `request body` de { kullaniciadi, sifre } ile bir kullanıcı oluşturan , yeni oluşturulan kullanıcıyı döndüren. |
+    | POST  | /api/giriş        | `request body` deki { kullaniciadi, sifre } yi kontrol edip , bir hoşgeldin mesajı döndüren .                  |
 
 - [ ] **İSTEĞE BAĞLI OLARAK** uygulamanızı [Heroku](https://heroku.com) üzerinde konuşlandırın. Github'daki depoya giden bağlantı, teslim edilebilir gerçek gönderiminizdir..
 
