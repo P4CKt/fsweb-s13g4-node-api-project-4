@@ -22,13 +22,15 @@ Forklayın, clone'layın ve bolca commitleyin.
   - Bir `.env` dosyası ve dotenv kitaplığı kullanarak ortam değişkenleri için destek ekleyin ve kodda geri dönüşler sağlayın
   - API'yi detaylandırın:
 
-    | Metod | URL               | Açıklama                                                                                                       |
-    | ----- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
-    | GET   | /api/kullanıcılar | Kullanıcılar dizisini döndüren.                                                                                |
-    | POST  | /api/kayıtol      | `request body` de { kullaniciadi, sifre } ile bir kullanıcı oluşturan , yeni oluşturulan kullanıcıyı döndüren. |
-    | POST  | /api/giriş        | `request body` deki { kullaniciadi, sifre } yi kontrol edip , bir hoşgeldin mesajı döndüren .                  |
+        | Metod | URL               | Açıklama                                                                                                       |
+        | ----- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
+        | GET   | /api/kullanıcılar | Kullanıcılar dizisini döndüren.                                                                                |
+        | POST  | /api/kayıtol      | `request body` de { kullaniciadi, sifre } ile bir kullanıcı oluşturan , yeni oluşturulan kullanıcıyı döndüren. |
+        | POST  | /api/giriş        | `request body` deki { kullaniciadi, sifre } yi kontrol edip , bir hoşgeldin mesajı döndüren .                  |
 
-- [ ] **İSTEĞE BAĞLI OLARAK** uygulamanızı [Heroku](https://heroku.com) üzerinde konuşlandırın. Github'daki depoya giden bağlantı, teslim edilebilir gerçek gönderiminizdir..
+    STEĞE BAĞLI OLARAK\*\* uygulamanızı [Heroku](https://heroku.com) üzerinde konuşlandırın. Github'daki depoya giden bağlantı, teslim edilebilir gerçek gönderiminizdir
+
+- [ ] \*\*İ..
 
 ### Önemli Notlar
 
